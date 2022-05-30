@@ -1,0 +1,44 @@
+.tabla{
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    justify-content: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+.white{
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+}
+.item:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(128, 128, 128, 0.75);
+}
+header{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+h1{
+    text-align: center;
+}
+.info-grid{
+    display: grid;
+    justify-content: center;
+}
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
